@@ -1,0 +1,144 @@
+Complaint,Category,Urgency,clean_complaint,Category_encoded,Urgency_encoded
+I can’t add a new address — button does nothing.,Account & Shipping,Low,i can’t add a new address — button does nothing,0,2
+Flash sale prices aren’t reflected during checkout. and I need help urgently,Promotions,Immediate,flash sale prices aren’t reflected during checkout and i need help urgently,5,1
+System declined my payment without any reason. — this is very frustrating,Payments,Immediate,system declined my payment without any reason — this is very frustrating,3,1
+The shipping company marked it as delivered to the wrong city. and I need help urgently,Order Tracking,Medium,the shipping company marked it as delivered to the wrong city and i need help urgently,2,3
+Site logs me out randomly. which is unacceptable,Technical Issues,Medium,site logs me out randomly which is unacceptable,7,3
+I never received the promised sign-up bonus. and I don't know what to do next,Promotions,Medium,i never received the promised signup bonus and i dont know what to do next,5,3
+It looks like a returned item — packaging was already opened. — this is very frustrating,Product Issues,Low,it looks like a returned item — packaging was already opened — this is very frustrating,4,2
+"Order timed out after payment, but money is gone.",Payments,Low,order timed out after payment but money is gone,3,2
+No updates in 7 days — where is my stuff? even after multiple attempts,Order Tracking,Medium,no updates in days — where is my stuff even after multiple attempts,2,3
+I paid for express delivery and it’s still not shipped. — this is very frustrating,Order Tracking,Low,i paid for express delivery and it’s still not shipped — this is very frustrating,2,2
+The discount code I got by email doesn’t work on any items. even after multiple attempts,Promotions,High,the discount code i got by email doesn’t work on any items even after multiple attempts,5,0
+Your support team said I’d get refunded — it's been a week. despite following all instructions,Refunds,Medium,your support team said i’d get refunded — its been a week despite following all instructions,6,3
+It shipped to the wrong apartment. — this is very frustrating,Account & Shipping,Low,it shipped to the wrong apartment — this is very frustrating,0,2
+"Order timed out after payment, but money is gone. — this is very frustrating",Payments,Medium,order timed out after payment but money is gone — this is very frustrating,3,3
+I never received the promised sign-up bonus. even after multiple attempts,Promotions,Medium,i never received the promised signup bonus even after multiple attempts,5,3
+Site logs me out randomly. and there's no explanation anywhere,Technical Issues,High,site logs me out randomly and theres no explanation anywhere,7,0
+I’m stuck on the loading screen forever. which is unacceptable,Technical Issues,Immediate,i’m stuck on the loading screen forever which is unacceptable,7,1
+No updates in 7 days — where is my stuff? — this is very frustrating,Order Tracking,Low,no updates in days — where is my stuff — this is very frustrating,2,2
+Package was rerouted without telling me. — this is very frustrating,Order Tracking,High,package was rerouted without telling me — this is very frustrating,2,0
+It has a foul odor like chemicals. which is unacceptable,Product Issues,High,it has a foul odor like chemicals which is unacceptable,4,0
+I’m stuck on the loading screen forever. and I don't know what to do next,Technical Issues,Medium,i’m stuck on the loading screen forever and i dont know what to do next,7,3
+I never received the promised sign-up bonus. which is unacceptable,Promotions,High,i never received the promised signup bonus which is unacceptable,5,0
+I clicked on a 15% off ad and it vanished at checkout.,Promotions,Low,i clicked on a off ad and it vanished at checkout,5,2
+I can’t add a new address — button does nothing. and I need help urgently,Account & Shipping,Medium,i can’t add a new address — button does nothing and i need help urgently,0,3
+"The return was delivered, but no refund yet. and I need help urgently",Refunds,Low,the return was delivered but no refund yet and i need help urgently,6,2
+Duplicate orders were placed by mistake and I can't cancel. despite following all instructions,Order Issues,Medium,duplicate orders were placed by mistake and i cant cancel despite following all instructions,1,3
+This isn't what I ordered — it’s the wrong model. and I don't know what to do next,Product Issues,Immediate,this isnt what i ordered — it’s the wrong model and i dont know what to do next,4,1
+I can’t add a new address — button does nothing. please fix this ASAP,Account & Shipping,Low,i can’t add a new address — button does nothing please fix this asap,0,2
+There are defects in the stitching of this garment. please fix this ASAP,Product Issues,High,there are defects in the stitching of this garment please fix this asap,4,0
+The courier lost my order — I need a replacement ASAP. despite following all instructions,Order Tracking,Immediate,the courier lost my order — i need a replacement asap despite following all instructions,2,1
+"The box arrived empty, just packing materials. please fix this ASAP",Order Issues,Immediate,the box arrived empty just packing materials please fix this asap,1,1
+There are defects in the stitching of this garment. and I don't know what to do next,Product Issues,Medium,there are defects in the stitching of this garment and i dont know what to do next,4,3
+Used Apple Pay — no order confirmation received. please fix this ASAP,Payments,Medium,used apple pay — no order confirmation received please fix this asap,3,3
+The courier lost my order — I need a replacement ASAP. please fix this ASAP,Order Tracking,High,the courier lost my order — i need a replacement asap please fix this asap,2,0
+The discount code I got by email doesn’t work on any items. and I don't know what to do next,Promotions,High,the discount code i got by email doesn’t work on any items and i dont know what to do next,5,0
+"I used a valid code and it applied, but was later removed. and I don't know what to do next",Promotions,Low,i used a valid code and it applied but was later removed and i dont know what to do next,5,2
+"The box arrived empty, just packing materials. even after multiple attempts",Order Issues,High,the box arrived empty just packing materials even after multiple attempts,1,0
+There are defects in the stitching of this garment. even after multiple attempts,Product Issues,High,there are defects in the stitching of this garment even after multiple attempts,4,0
+You promised a refund 10 days ago — still nothing in my account. — this is very frustrating,Refunds,Medium,you promised a refund days ago — still nothing in my account — this is very frustrating,6,3
+"Tracking says delivered, but nothing is at my door. despite following all instructions",Order Tracking,High,tracking says delivered but nothing is at my door despite following all instructions,2,0
+App is extremely slow today. despite following all instructions,Technical Issues,High,app is extremely slow today despite following all instructions,7,0
+Duplicate orders were placed by mistake and I can't cancel. even after multiple attempts,Order Issues,Immediate,duplicate orders were placed by mistake and i cant cancel even after multiple attempts,1,1
+You sent me a tracking number that doesn’t exist. even after multiple attempts,Order Tracking,Medium,you sent me a tracking number that doesn’t exist even after multiple attempts,2,3
+"Tracking says delivered, but nothing is at my door. and it's really disappointing",Order Tracking,Immediate,tracking says delivered but nothing is at my door and its really disappointing,2,1
+Error message keeps popping up during login. and I need help urgently,Technical Issues,High,error message keeps popping up during login and i need help urgently,7,0
+You refunded the wrong amount. even after multiple attempts,Refunds,Medium,you refunded the wrong amount even after multiple attempts,6,3
+Everything came except the most expensive item I paid for. please fix this ASAP,Order Issues,Medium,everything came except the most expensive item i paid for please fix this asap,1,3
+My order shows 'fulfilled' but I never received it. please fix this ASAP,Order Issues,High,my order shows fulfilled but i never received it please fix this asap,1,0
+The app froze during checkout and now my cart is empty. despite following all instructions,Technical Issues,High,the app froze during checkout and now my cart is empty despite following all instructions,7,0
+Billing and shipping addresses keep getting swapped. please fix this ASAP,Account & Shipping,High,billing and shipping addresses keep getting swapped please fix this asap,0,0
+"The box arrived empty, just packing materials. and I need help urgently",Order Issues,High,the box arrived empty just packing materials and i need help urgently,1,0
+It has a foul odor like chemicals. even after multiple attempts,Product Issues,High,it has a foul odor like chemicals even after multiple attempts,4,0
+I didn’t approve this transaction. despite following all instructions,Payments,Low,i didn’t approve this transaction despite following all instructions,3,2
+Billing and shipping addresses keep getting swapped. which is unacceptable,Account & Shipping,High,billing and shipping addresses keep getting swapped which is unacceptable,0,0
+My tracking shows 'label created' for 5 days with no movement. — this is very frustrating,Order Tracking,Immediate,my tracking shows label created for days with no movement — this is very frustrating,2,1
+It says 'Buy 1 Get 1 Free' but I was charged for both items. and it's really disappointing,Promotions,Medium,it says buy get free but i was charged for both items and its really disappointing,5,3
+I can’t change my shipping method after ordering. even after multiple attempts,Account & Shipping,Immediate,i can’t change my shipping method after ordering even after multiple attempts,0,1
+The zipper broke the first time I used the bag. and I don't know what to do next,Product Issues,Low,the zipper broke the first time i used the bag and i dont know what to do next,4,2
+The discount code I got by email doesn’t work on any items. and it's really disappointing,Promotions,Medium,the discount code i got by email doesn’t work on any items and its really disappointing,5,3
+Search results don’t load anything anymore. despite following all instructions,Technical Issues,Immediate,search results don’t load anything anymore despite following all instructions,7,1
+"Referral code said $10 off, but it did nothing. which is unacceptable",Promotions,High,referral code said off but it did nothing which is unacceptable,5,0
+I received store credit instead of a cash refund I requested. please fix this ASAP,Refunds,High,i received store credit instead of a cash refund i requested please fix this asap,6,0
+I want a refund but there's no option in the return menu. which is unacceptable,Refunds,High,i want a refund but theres no option in the return menu which is unacceptable,6,0
+I didn’t approve this transaction. and there's no explanation anywhere,Payments,Immediate,i didn’t approve this transaction and theres no explanation anywhere,3,1
+Wrong items delivered — not even close to what I ordered. and I need help urgently,Order Issues,Low,wrong items delivered — not even close to what i ordered and i need help urgently,1,2
+It shipped to the wrong apartment. and there's no explanation anywhere,Account & Shipping,Immediate,it shipped to the wrong apartment and theres no explanation anywhere,0,1
+Instructions were unclear and impossible to follow. which is unacceptable,Product Issues,Low,instructions were unclear and impossible to follow which is unacceptable,4,2
+I updated my address but order still went to the old one. and I need help urgently,Account & Shipping,Medium,i updated my address but order still went to the old one and i need help urgently,0,3
+I want a refund but there's no option in the return menu. and I need help urgently,Refunds,Medium,i want a refund but theres no option in the return menu and i need help urgently,6,3
+Shipping info shows a state I don’t live in. which is unacceptable,Account & Shipping,Immediate,shipping info shows a state i don’t live in which is unacceptable,0,1
+Missing accessories from the package.,Product Issues,Immediate,missing accessories from the package,4,1
+The courier lost my order — I need a replacement ASAP. and it's really disappointing,Order Tracking,Medium,the courier lost my order — i need a replacement asap and its really disappointing,2,3
+I never got tracking info in the first place. despite following all instructions,Order Tracking,Low,i never got tracking info in the first place despite following all instructions,2,2
+Still waiting for confirmation that my refund is being processed. which is unacceptable,Refunds,Medium,still waiting for confirmation that my refund is being processed which is unacceptable,6,3
+Used Apple Pay — no order confirmation received. and I don't know what to do next,Payments,Immediate,used apple pay — no order confirmation received and i dont know what to do next,3,1
+My loyalty points are missing even after multiple purchases. and there's no explanation anywhere,Promotions,Low,my loyalty points are missing even after multiple purchases and theres no explanation anywhere,5,2
+"Tracking says delivered, but nothing is at my door. — this is very frustrating",Order Tracking,Immediate,tracking says delivered but nothing is at my door — this is very frustrating,2,1
+Your support team said I’d get refunded — it's been a week. which is unacceptable,Refunds,Immediate,your support team said i’d get refunded — its been a week which is unacceptable,6,1
+Only part of my order arrived — the rest is missing. and it's really disappointing,Order Issues,Medium,only part of my order arrived — the rest is missing and its really disappointing,1,3
+Duplicate orders were placed by mistake and I can't cancel. please fix this ASAP,Order Issues,Immediate,duplicate orders were placed by mistake and i cant cancel please fix this asap,1,1
+Can’t apply filters while browsing products. even after multiple attempts,Technical Issues,High,can’t apply filters while browsing products even after multiple attempts,7,0
+Flash sale prices aren’t reflected during checkout. please fix this ASAP,Promotions,Immediate,flash sale prices aren’t reflected during checkout please fix this asap,5,1
+"Bank says payment went through, you say it didn’t. and I need help urgently",Payments,Low,bank says payment went through you say it didn’t and i need help urgently,3,2
+"Referral code said $10 off, but it did nothing. and there's no explanation anywhere",Promotions,Immediate,referral code said off but it did nothing and theres no explanation anywhere,5,1
+Wrong items delivered — not even close to what I ordered. please fix this ASAP,Order Issues,High,wrong items delivered — not even close to what i ordered please fix this asap,1,0
+Your support team said I’d get refunded — it's been a week. and it's really disappointing,Refunds,Low,your support team said i’d get refunded — its been a week and its really disappointing,6,2
+Shipping info shows a state I don’t live in. — this is very frustrating,Account & Shipping,Medium,shipping info shows a state i don’t live in — this is very frustrating,0,3
+Missing accessories from the package. and it's really disappointing,Product Issues,Immediate,missing accessories from the package and its really disappointing,4,1
+Flash sale prices aren’t reflected during checkout. and I don't know what to do next,Promotions,Medium,flash sale prices aren’t reflected during checkout and i dont know what to do next,5,3
+I was charged twice for the same item. and I don't know what to do next,Payments,Low,i was charged twice for the same item and i dont know what to do next,3,2
+App is extremely slow today. even after multiple attempts,Technical Issues,Low,app is extremely slow today even after multiple attempts,7,2
+One side of the headphones doesn't work. despite following all instructions,Product Issues,High,one side of the headphones doesnt work despite following all instructions,4,0
+"Referral code said $10 off, but it did nothing. — this is very frustrating",Promotions,Immediate,referral code said off but it did nothing — this is very frustrating,5,1
+Transaction failed but my card got debited anyway. please fix this ASAP,Payments,Immediate,transaction failed but my card got debited anyway please fix this asap,3,1
+The app froze during checkout and now my cart is empty. and I need help urgently,Technical Issues,Low,the app froze during checkout and now my cart is empty and i need help urgently,7,2
+Wrong items delivered — not even close to what I ordered. and it's really disappointing,Order Issues,Immediate,wrong items delivered — not even close to what i ordered and its really disappointing,1,1
+It looks like a returned item — packaging was already opened. even after multiple attempts,Product Issues,Medium,it looks like a returned item — packaging was already opened even after multiple attempts,4,3
+Can’t reset my password — reset link doesn’t work. please fix this ASAP,Account & Shipping,Low,can’t reset my password — reset link doesn’t work please fix this asap,0,2
+My order shows 'fulfilled' but I never received it. even after multiple attempts,Order Issues,High,my order shows fulfilled but i never received it even after multiple attempts,1,0
+"The box arrived empty, just packing materials. and I don't know what to do next",Order Issues,Immediate,the box arrived empty just packing materials and i dont know what to do next,1,1
+There’s a mystery fee added to my final bill. even after multiple attempts,Payments,Low,there’s a mystery fee added to my final bill even after multiple attempts,3,2
+There’s a mystery fee added to my final bill. and it's really disappointing,Payments,Medium,there’s a mystery fee added to my final bill and its really disappointing,3,3
+The item arrived broken and unusable. — this is very frustrating,Product Issues,Immediate,the item arrived broken and unusable — this is very frustrating,4,1
+I received store credit instead of a cash refund I requested. which is unacceptable,Refunds,High,i received store credit instead of a cash refund i requested which is unacceptable,6,0
+Only part of my order arrived — the rest is missing. — this is very frustrating,Order Issues,Immediate,only part of my order arrived — the rest is missing — this is very frustrating,1,1
+It looks like a returned item — packaging was already opened. despite following all instructions,Product Issues,Immediate,it looks like a returned item — packaging was already opened despite following all instructions,4,1
+I paid for express delivery and it’s still not shipped. and it's really disappointing,Order Tracking,Low,i paid for express delivery and it’s still not shipped and its really disappointing,2,2
+My tracking shows 'label created' for 5 days with no movement. even after multiple attempts,Order Tracking,Medium,my tracking shows label created for days with no movement even after multiple attempts,2,3
+I can’t change my shipping method after ordering. and it's really disappointing,Account & Shipping,Immediate,i can’t change my shipping method after ordering and its really disappointing,0,1
+It keeps saying my email is invalid. — this is very frustrating,Account & Shipping,Low,it keeps saying my email is invalid — this is very frustrating,0,2
+I clicked on a 15% off ad and it vanished at checkout. — this is very frustrating,Promotions,Immediate,i clicked on a off ad and it vanished at checkout — this is very frustrating,5,1
+Why was one of my items refunded without asking? and it's really disappointing,Order Issues,Immediate,why was one of my items refunded without asking and its really disappointing,1,1
+I got charged but no confirmation email came through. and I don't know what to do next,Order Issues,Low,i got charged but no confirmation email came through and i dont know what to do next,1,2
+The colors in the product photos are completely misleading. please fix this ASAP,Product Issues,Immediate,the colors in the product photos are completely misleading please fix this asap,4,1
+Everything came except the most expensive item I paid for. and it's really disappointing,Order Issues,Medium,everything came except the most expensive item i paid for and its really disappointing,1,3
+I updated my address but order still went to the old one. — this is very frustrating,Account & Shipping,High,i updated my address but order still went to the old one — this is very frustrating,0,0
+Search results don’t load anything anymore. and it's really disappointing,Technical Issues,Medium,search results don’t load anything anymore and its really disappointing,7,3
+Everything came except the most expensive item I paid for. and there's no explanation anywhere,Order Issues,High,everything came except the most expensive item i paid for and theres no explanation anywhere,1,0
+The discount code I got by email doesn’t work on any items. despite following all instructions,Promotions,Low,the discount code i got by email doesn’t work on any items despite following all instructions,5,2
+My order shows 'fulfilled' but I never received it. which is unacceptable,Order Issues,Medium,my order shows fulfilled but i never received it which is unacceptable,1,3
+The site accepted my payment but shows no order. despite following all instructions,Payments,Low,the site accepted my payment but shows no order despite following all instructions,3,2
+I didn’t approve this transaction. which is unacceptable,Payments,Low,i didn’t approve this transaction which is unacceptable,3,2
+Your system rejected my student discount for no reason. and I need help urgently,Promotions,Low,your system rejected my student discount for no reason and i need help urgently,5,2
+Can’t reset my password — reset link doesn’t work. even after multiple attempts,Account & Shipping,Low,can’t reset my password — reset link doesn’t work even after multiple attempts,0,2
+Why was a restocking fee deducted from my refund? and I need help urgently,Refunds,High,why was a restocking fee deducted from my refund and i need help urgently,6,0
+The site accepted my payment but shows no order. and there's no explanation anywhere,Payments,Immediate,the site accepted my payment but shows no order and theres no explanation anywhere,3,1
+The zipper broke the first time I used the bag. despite following all instructions,Product Issues,High,the zipper broke the first time i used the bag despite following all instructions,4,0
+"I used a valid code and it applied, but was later removed. despite following all instructions",Promotions,High,i used a valid code and it applied but was later removed despite following all instructions,5,0
+My tracking shows 'label created' for 5 days with no movement. and it's really disappointing,Order Tracking,Immediate,my tracking shows label created for days with no movement and its really disappointing,2,1
+The shipping company marked it as delivered to the wrong city. even after multiple attempts,Order Tracking,High,the shipping company marked it as delivered to the wrong city even after multiple attempts,2,0
+One side of the headphones doesn't work. and I don't know what to do next,Product Issues,High,one side of the headphones doesnt work and i dont know what to do next,4,0
+I returned everything and only got a partial refund. despite following all instructions,Refunds,Low,i returned everything and only got a partial refund despite following all instructions,6,2
+This isn't what I ordered — it’s the wrong model. despite following all instructions,Product Issues,Medium,this isnt what i ordered — it’s the wrong model despite following all instructions,4,3
+I paid for express delivery and it’s still not shipped. which is unacceptable,Order Tracking,Low,i paid for express delivery and it’s still not shipped which is unacceptable,2,2
+It has a foul odor like chemicals. and I don't know what to do next,Product Issues,High,it has a foul odor like chemicals and i dont know what to do next,4,0
+I never received the promised sign-up bonus. despite following all instructions,Promotions,Low,i never received the promised signup bonus despite following all instructions,5,2
+The shipping company marked it as delivered to the wrong city. and I don't know what to do next,Order Tracking,High,the shipping company marked it as delivered to the wrong city and i dont know what to do next,2,0
+"You're advertising free shipping, but I'm being charged for it. and I need help urgently",Promotions,Low,youre advertising free shipping but im being charged for it and i need help urgently,5,2
+Package was rerouted without telling me. which is unacceptable,Order Tracking,Low,package was rerouted without telling me which is unacceptable,2,2
+Why was one of my items refunded without asking? — this is very frustrating,Order Issues,Medium,why was one of my items refunded without asking — this is very frustrating,1,3
+Your system rejected my student discount for no reason. despite following all instructions,Promotions,Low,your system rejected my student discount for no reason despite following all instructions,5,2
+"The return was delivered, but no refund yet. and it's really disappointing",Refunds,High,the return was delivered but no refund yet and its really disappointing,6,0
+Can’t apply filters while browsing products.,Technical Issues,Low,can’t apply filters while browsing products,7,2
