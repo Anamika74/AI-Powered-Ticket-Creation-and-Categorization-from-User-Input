@@ -1,0 +1,10 @@
+[33md680206[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{0}: pull origin main --rebase (finish): returning to refs/heads/main
+[33md680206[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{1}: pull origin main --rebase (pick): Milestone 1 & 2 Complete: Trained Topic/Priority/NER models and generated evaluation charts
+[33mf49c5b9[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{2}: pull origin main --rebase (start): checkout f49c5b9ac6284998c0d28ff98e89bf812ffd666a
+[33m0f01467[m HEAD@{3}: commit: Milestone 1 & 2 Complete: Trained Topic/Priority/NER models and generated evaluation charts
+[33m47b232f[m HEAD@{4}: pull origin main --rebase (finish): returning to refs/heads/main
+[33m47b232f[m HEAD@{5}: pull origin main --rebase (pick): Milestone 2 : Core Model Development
+[33m0fb5f30[m HEAD@{6}: pull origin main --rebase (pick): Milestone 1 : Data Preparation
+[33m72a6258[m HEAD@{7}: pull origin main --rebase (start): checkout 72a625879368cae75af93f99111fa9605a62d73d
+[33m8a9b783[m HEAD@{8}: commit: Milestone 2 : Core Model Development
+[33m4f43521[m HEAD@{9}: commit (initial): Milestone 1 : Data Preparation
