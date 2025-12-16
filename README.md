@@ -1,90 +1,89 @@
-#  AI-Powered Ticket Creation and Categorization from User Input
 
-##  Project Overview
+# AI-Powered Ticket Creation and Categorization System##📖 Project OverviewThis project is an end-to-end AI solution designed to automate the lifecycle of IT support tickets. By leveraging Natural Language Processing (NLP) and Machine Learning, the system transforms raw, unstructured user complaints into structured, actionable data.
 
-This repository hosts an end-to-end Natural Language Processing (NLP) system designed to automate the initial triage process for customer support complaints.
-By analyzing raw text input, the system automatically classifies the complaint's **Category** (e.g., Refund, Shipping) and assigns a **Priority Level (Urgency)**.
-
-This solution is being developed using a structured, iterative approach, starting with foundational machine learning models (TF-IDF + Scikit-learn classifiers).
+The system automatically predicts the **Department/Topic**, determines the **Urgency (Priority)**, and extracts critical technical **Entities** (like User IDs and Device names) to eliminate manual triage.
 
 ---
 
-##  Status: Ongoing Development
-
-### Phase Completion
-
-Development is currently focused on **Milestone 3: Integrating the full Ticket Generation Engine.**
-
-| Milestone | Objective | Status |
-| :--- | :--- | :--- |
-| **Milestone 1** | Data Prep and Feature Engineering | **Completed** |
-| **Milestone 2** | Core Model Development & Selection | **Completed** |
-| **Milestone 3** | Ticket Generation Engine Integration | **In Progress** |
-| **Milestone 4** | Optimization (Hyperparameter Tuning, Deep Learning) | *Planned* |
+##🛠 Project Roadmap & Status| Milestone | Objective | Status |
+| --- | --- | --- |
+| **Milestone 1** | Data Acquisition, Cleaning & Feature Engineering | **✅ Completed** |
+| **Milestone 2** | Model Selection, Training, and NER Development | **✅ Completed** |
+| **Milestone 3** | Ticket Generation Engine & Interface Integration | **🚀 In Progress** |
 
 ---
 
-##  Milestone 2: Core Model Development Results
+## Detailed Technical Workflow###🏗 Milestone 1: Data FoundationsIn this phase, we processed a large-scale dataset (47k+ rows) to create a clean "Gold Standard" for training.
 
-The initial baseline models were trained, validated, and selected to finalize the core classification mechanism.
-
-### Best Model Selection (Weighted F1-Score)
-
-| Task | Best Model Selected | Weighted F1-Score |
-| :--- | :--- | :--- |
-| **Category Classification** | **SVM (Linear Kernel)** | **0.7677** |
-| **Urgency Classification** | **SVM / Logistic Regression** | **~0.7931** |
-
-The **SVM (Linear Kernel)** was chosen as the consistent best performer to anchor both classification tasks in the final pipeline.
+* **Text Preprocessing:** Implemented a robust cleaning pipeline:
+* Conversion to lowercase.
+* Removal of URLs, HTML tags, and special characters.
+* Stop-word removal and Lemmatization to preserve technical context.
 
 
+* **Label Engineering:** Created a rule-based logic to generate initial **Priority** labels based on keywords and sentiment patterns.
+* **Vectorization:** Implemented **TF-IDF (Term Frequency-Inverse Document Frequency)** to convert text into numerical feature matrices, capturing the importance of technical terms (e.g., "server," "crash," "VPN").
 
----
+### Milestone 2: The AI BrainThis phase involved building three distinct models to handle different parts of the ticket.
 
-##  Project Architecture
+####1. Topic & Priority ClassificationWe conducted a "Model Tournament" to find the most accurate architecture:
 
-The final system architecture combines multiple components into a seamless processing pipeline:
+* **Models Tested:** Logistic Regression, Naive Bayes, Linear SVM, Random Forest, and XGBoost.
+* **Winning Model:** **Linear SVM** emerged as the top performer due to its high efficiency with sparse TF-IDF data.
+* **Performance:**
+* **Topic Classification:** Weighted F1-Score of **~0.7677**
+* **Urgency Classification:** Weighted F1-Score of **~0.7931**
 
-1.  **Preprocessing & Cleaning:** Text is cleaned (lower-cased, tokenized, lemmatized, stopwords removed) to reduce noise.
-2.  **Feature Extraction:** **TF-IDF Vectorization** converts clean text into a sparse numerical matrix .
-3.  **Classification:** The numerical features are fed to the trained **SVM** classifiers for Category and Urgency prediction.
-4.  **Entity Recognition (NER):** A spaCy model extracts key named entities (e.g., Order IDs, Dates) to auto-populate the structured ticket.
 
----
 
-##  Repository Contents
+####2. Named Entity Recognition (NER)To extract structured data from sentences (e.g., "Laptop-44 is broken for user ryan_hr"), we trained a custom NLP model.
 
-| File/Folder | Description | Milestone |
-| :--- | :--- | :--- |
-| `milestone_01.ipynb` | Code for Data Loading, Feature Engineering (Cleaning, TF-IDF preparation), and target variable encoding. | M1 |
-| `milestone_02.ipynb` | Code for Model Comparison, training LR/SVM/RF/XGBoost, and full evaluation using F1-Score and Confusion Matrices. | M2 |
-| `Customer_Complaints_Updated.csv` | The raw input dataset used for training and testing. | M1 |
-| `model_f1_comparison.png` | Visualization of all model F1-Score results. | M2 |
-| `ticket_generation_engine.py` | *(Current Focus)* The final Python module containing the `generate_ticket` function for end-to-end execution. | M3 |
+* **Architecture:** Developed using **spaCy’s blank English model** with a custom NER pipe.
+* **Data Iteration:** Initially trained on 1,000 rows, then **doubled to 2,000 rows** to improve the model's ability to distinguish between a `DEVICE` and a `USER_ID`.
+* **Refinement:** Optimized over 30 training epochs with dropout to prevent overfitting.
 
 ---
 
-##  Getting Started (Local Setup)
+## Repository Structure| File/Folder | Description |
+| --- | --- |
+| **`/Kaggle Dataset`** | The primary directory containing all trained AI assets. |
+| `tfidf_vectorizer.pkl` | The trained "translator" that converts user text to numbers. |
+| `best_topic_classifier.pkl` | Finalized SVM model for predicting the ticket category. |
+| `best_priority_classifier.pkl` | Finalized SVM model for predicting urgency. |
+| **`/custom_it_ner_model`** | The folder containing the saved spaCy NER model (v1.0). |
+| `confusion_matrix.png` | Visual proof of model accuracy and classification performance. |
+| `milestone_01_prep.ipynb` | Jupyter notebook for Data Cleaning & Feature Engineering. |
+| `milestone_02_train.ipynb` | Jupyter notebook for Model Training and NER optimization. |
 
-To run the project locally, follow these steps:
+---
 
-### 1. Prerequisites
+## How the System Works1. **Input:** User types: *"The SAP software is crashing on my Laptop-X12 for user smith_j."*
+2. **Processing:**
+* **Step 1:** The **TF-IDF Vectorizer** converts the text for the classifiers.
+* **Step 2:** The **Topic Model** identifies this as a "Software" ticket.
+* **Step 3:** The **Priority Model** identifies this as "Medium/High" urgency.
+* **Step 4:** The **NER Model** extracts `SAP` (Software), `Laptop-X12` (Device), and `smith_j` (User).
 
-1.  Python 3.8+
-2.  Git
 
-### 2. Installation
+3. **Output:** A structured JSON object ready for the IT database.
 
-Clone the repository and install the required libraries:
+---
+
+##🛠 Installation & EnvironmentTo run this project locally, ensure you have Python 3.8+ installed:
 
 ```bash
-# Clone the repository
-git clone [https://github.com/your-username/AI-Powered-Ticket-Creation-and-Categorization-from-User-Input.git](https://github.com/your-username/AI-Powered-Ticket-Creation-and-Categorization-from-User-Input.git)
-cd AI-Powered-Ticket-Creation-and-Categorization-from-User-Input
+# Install core dependencies
+pip install pandas scikit-learn joblib spacy matplotlib seaborn
 
-# Install core dependencies (use the full list including NLTK and SpaCy)
-pip install pandas scikit-learn nltk seaborn matplotlib xgboost ipykernel
-
-# Download necessary NLTK and SpaCy resources
-python -c "import nltk; nltk.download('stopwords'); nltk.download('wordnet'); nltk.download('punkt')"
+# Download spaCy base model
 python -m spacy download en_core_web_sm
+
+```
+
+---
+
+###💡 Key Technical Decisions* **Why SVM?** We chose Linear SVM over Random Forest because it performed significantly better with high-dimensional text data.
+* **Data Recovery:** During the Git push process, we utilized `git reflog` and `git reset --hard` to recover work lost during a merge conflict, ensuring zero data loss during the handoff.
+* **NER Balancing:** We manually adjusted the training sample to ensure the model didn't confuse hardware names with user IDs.
+
+---
