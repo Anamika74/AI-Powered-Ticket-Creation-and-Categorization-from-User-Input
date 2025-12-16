@@ -1,5 +1,6 @@
 
-# AI-Powered Ticket Creation and Categorization System##📖 Project OverviewThis project is an end-to-end AI solution designed to automate the lifecycle of IT support tickets. By leveraging Natural Language Processing (NLP) and Machine Learning, the system transforms raw, unstructured user complaints into structured, actionable data.
+#AI-Powered Ticket Creation and Categorization from User Input
+## Project Overview- This project is an end-to-end AI solution designed to automate the lifecycle of IT support tickets. By leveraging Natural Language Processing (NLP) and Machine Learning, the system transforms raw, unstructured user complaints into structured, actionable data.
 
 The system automatically predicts the **Department/Topic**, determines the **Urgency (Priority)**, and extracts critical technical **Entities** (like User IDs and Device names) to eliminate manual triage.
 
@@ -13,7 +14,8 @@ The system automatically predicts the **Department/Topic**, determines the **Urg
 
 ---
 
-## Detailed Technical Workflow###🏗 Milestone 1: Data FoundationsIn this phase, we processed a large-scale dataset (47k+ rows) to create a clean "Gold Standard" for training.
+## Detailed Technical Workflow
+### Milestone 1: Data FoundationsIn this phase, we processed a large-scale dataset (47k+ rows) to create a clean "Gold Standard" for training.
 
 * **Text Preprocessing:** Implemented a robust cleaning pipeline:
 * Conversion to lowercase.
