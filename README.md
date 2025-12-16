@@ -6,7 +6,7 @@ The system automatically predicts the **Department/Topic**, determines the **Urg
 
 ---
 
-##🛠 Project Roadmap & Status| Milestone | Objective | Status |
+## Project Roadmap & Status| Milestone | Objective | Status |
 | --- | --- | --- |
 | **Milestone 1** | Data Acquisition, Cleaning & Feature Engineering | **✅ Completed** |
 | **Milestone 2** | Model Selection, Training, and NER Development | **✅ Completed** |
