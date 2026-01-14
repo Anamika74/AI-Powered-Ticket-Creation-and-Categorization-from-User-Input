@@ -1,49 +1,57 @@
 # AI-Powered IT Ticket Intelligence System
 
-### *Automated Ticket Categorization using BERT-SVM Ensemble & Streamlit*
+### *Strategic Automation via BERT-SVM Ensemble & Streamlit*
 
 ## Project Overview
 
-This project automates the manual process of IT helpdesk ticket routing. By utilizing a **State-of-the-Art (SOTA)** Ensemble approach, the system analyzes user-submitted issue descriptions and automatically assigns them to one of eight technical categories (Hardware, Access, Administrative Rights, etc.) with high precision.
+This project is an **end-to-end AI solution** designed to automate the lifecycle of IT support tickets. By leveraging Natural Language Processing (NLP) and Deep Learning, the system transforms raw, unstructured user complaints into **structured, actionable data**.
+
+The system automatically predicts the **Department/Topic**, determines **Urgency**, and extracts critical **Technical Entities** (User IDs, Device Names) to eliminate manual triage.
 
 ---
 
-## Key Features
+## Project Roadmap & Status
 
-* **Hybrid Ensemble Engine**: Combines **DistilBERT** (Semantic Context) and **Linear SVM** (Keyword Precision) for a final accuracy of **~89.2%**.
-* **JSON-Native Output**: Designed for enterprise integration, providing categories and confidence scores in structured JSON.
-* **Aesthetic UI**: A user-friendly Streamlit interface with a soft pastel theme for modern IT operations.
-* **Production-Ready**: Implemented with Git LFS for large model weight management and modular Python architecture.
-
----
-
-## Model Performance Journey
-
-During the research phase, we compared multiple architectures to find the optimal balance between speed and accuracy:
-
-| Model Stage | Architecture | Accuracy | Status |
-| --- | --- | --- | --- |
-| **Baseline** | Logistic Regression | 72.0% | ❌ Replaced |
-| **Specialist** | Linear SVM | 84.5% | ✅ Included |
-| **SOTA** | DistilBERT | 86.4% | ✅ Included |
-| **Final System** | **BERT-SVM Ensemble** | **88.7% - 89.2%** | 🏆 **Champion** |
+| Milestone | Objective | Status |
+| --- | --- | --- |
+| **Milestone 1** | Data Acquisition, Cleaning & Feature Engineering | ✅ **Completed** |
+| **Milestone 2** | Model Selection, Training, and NER Development | ✅ **Completed** |
+| **Milestone 3** | Ticket Generation Engine & JSON Integration | ✅ **Completed** |
+| **Milestone 4** | Deployment (Streamlit App) & Reporting | 🚀 **In Progress** |
 
 ---
 
-## Project Structure
+## Technical Workflow (The "Brain")
+
+We developed a sophisticated multi-component architecture to handle the complexity of IT communication:
+
+### **1. Hybrid Topic Classification**
+
+* **Approach**: **BERT-SVM Ensemble**.
+* **Performance**: While standalone SVM achieved ~76%, our hybrid approach reached **~89.2% accuracy**.
+* **Benefit**: Combines **Deep Semantic Context** (BERT) with **Keyword Precision** (SVM) to handle both technical jargon and conversational language.
+
+### **2. Intelligence Engine**
+
+* **Urgency Prediction**: Implemented via probability-based labeling to ensure critical outages are prioritized immediately.
+* **NER Extraction**: A custom **spaCy model** specifically trained to identify and extract entities like **User IDs** and **Device Names** directly from the ticket text.
+
+---
+
+##  Project Structure
 
 ```text
 IT-Ticket-Automation/
 ├── 📂 Kaggle Dataset/
-│   └── 📂 models/             # Local weights (Managed via Git LFS)
+│   └── 📂 models/             # AI Weights (Managed via Git LFS)
 │       ├── 📁 final_bert_model/
 │       ├── 📄 svm_model.pkl
 │       └── 📄 tfidf_vectorizer.pkl
-├── 📄 M1.ipynb                # Preprocessing & Class Balancing
-├── 📄 M2.ipynb                # Training & Evaluation
-├── 📄 M3.ipynb                # JSON Engine Development
-├── 📄 app.py                  # Final Streamlit Interface
-├── 📄 .gitattributes          # Git LFS Configurations
+├── 📄 M1.ipynb                # Data Cleaning & Preprocessing
+├── 📄 M2.ipynb                # Model Benchmarking & NER Training
+├── 📄 M3.ipynb                # JSON Logic & Ensemble Engine
+├── 📄 app.py                  # Streamlit UI (Finalizing)
+├── 📄 .gitattributes          # LFS Configuration
 └── 📄 requirements.txt        # Dependency Management
 
 ```
@@ -52,28 +60,35 @@ IT-Ticket-Automation/
 
 ## Installation & Usage
 
-### 1. Clone the Repository
+### **1. Environment Setup**
 
 ```bash
+# Clone the repository
 git clone https://github.com/Anamika74/AI-Powered-Ticket-Creation-and-Categorization-from-User-Input.git
-cd IT-Ticket-Automation
 
-```
+# Enter the project directory
+cd AI-Powered-Ticket-Creation-and-Categorization-from-User-Input
 
-### 2. Install Dependencies
-
-```bash
+# Install dependencies
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 
 ```
 
-### 3. Run the Application
+### **2. Launching the App**
 
 ```bash
 streamlit run app.py
 
 ```
+
+---
+
+## Engineering Excellence
+
+* **Git LFS Implementation**: Professionally managed the **255MB BERT model** using Git Large File Storage, ensuring a clean and functional GitHub repository.
+* **Aesthetic UI Design**: Milestone 4 utilizes a **modern pastel theme** (Lavender & Soft Pink) to improve the user experience for IT support agents.
+* **Modular Architecture**: The AI engine is decoupled from the UI, making it ready for integration into enterprise APIs or Chatbots.
 
 ---
 
@@ -90,11 +105,3 @@ streamlit run app.py
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-
-### **Next Step for You**
-
-You can now create a file named `README.md` in your main VS Code folder, paste this content inside, and then:
-
-1. `git add README.md`
-2. `git commit -m "Docs: Finalized aesthetic README"`
-3. `git push`
