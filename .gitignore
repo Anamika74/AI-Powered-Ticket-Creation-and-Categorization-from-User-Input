@@ -1,0 +1,33 @@
+# --- Python & Jupyter ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- Virtual Environments ---
+venv/
+env/
+ENV/
+.env
+.venv
+
+# --- Large Datasets (GitHub 100MB Limit) ---
+# These are too large for standard Git. Teammates should download them from the source.
+all_tickets_processed_improved_v3.csv
+all_tickets_prepared_for_model.csv
+cleaned_dataset.csv
+Customer_Complaints_Updated_Cleaned.csv
+Customer_Complaints_Updated.csv
+ner_annotation_sample.csv
+
+# --- System & IDE Files ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# --- Temporary Logs & Misc ---
+*.log
+.DS_Store
