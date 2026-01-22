@@ -1,0 +1,19 @@
+# Core Data Science
+pandas
+numpy
+matplotlib
+seaborn
+
+# Machine Learning & AI
+torch
+transformers==4.37.2
+tf-keras
+joblib
+scikit-learn
+spacy
+
+# Web Application
+streamlit
+
+# Utilities
+langdetect
