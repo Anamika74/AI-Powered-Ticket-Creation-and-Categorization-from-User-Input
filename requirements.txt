@@ -11,6 +11,7 @@ tf-keras
 joblib
 scikit-learn
 spacy
+protobuf==3.20.3
 
 # Web Application
 streamlit
