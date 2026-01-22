@@ -1,4 +1,4 @@
-# 🤖 AI-Powered IT Ticket Intelligence System
+# AI-Powered-Ticket-Creation-and-Categorization-from-User-Input
 
 ### *Strategic Automation using BERT–SVM Ensemble & Streamlit*
 
@@ -6,7 +6,7 @@
 
 ## 📌 Project Overview
 
-The **AI-Powered IT Ticket Intelligence System** is an end-to-end NLP solution that automates the lifecycle of IT support tickets.
+The **AI-Powered-Ticket-Creation-and-Categorization-from-User-Input** is an end-to-end NLP solution that automates the lifecycle of IT support tickets.
 It converts **unstructured user complaints** into **structured, actionable tickets** using advanced Natural Language Processing and Machine Learning.
 
 The system is built with a **stateful architecture using SQLite**, ensuring that all tickets are persistently stored, tracked via **SLA timers**, and managed through a **professional role-based workflow**.
