@@ -9,7 +9,7 @@ torch
 transformers==4.37.2
 tf-keras
 joblib
-scikit-learn
+scikit-learn==1.5.1
 spacy
 protobuf==3.20.3
 
